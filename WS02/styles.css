@@ -4,6 +4,7 @@ p {
     
 body {
       background-color: lightgray;
+      padding: 20px;
     }
     
 h1 {
@@ -18,8 +19,9 @@ h1 {
 }
 
 table {
-      width: 100%;
+      width: 80%;
       border-collapse: collapse;
+      margin: 20px auto;
     }
     
     th, td {
@@ -33,7 +35,7 @@ table {
     }
     
     form {
-      display: flex;
+      display:flex;
       flex-direction: column;
       gap: 10px;
     }
@@ -44,6 +46,7 @@ table {
     
     input[type="text"], input[type="email"] {
       padding: 8px;
+      width: 50%;
       border: 1px solid #0f0f0f;
       border-radius: 4px;
     }
@@ -51,6 +54,8 @@ table {
     input[type="submit"] {
       background-color: #4CAF50;
       color: white;
+      width: 51.5%;
+      margin-left: 50px;
       padding: 10px;
       border: none;
       border-radius: 4px;
